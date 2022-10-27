@@ -1,6 +1,6 @@
 create table board(
 bid int auto_increment comment '일련번호' primary key,
-cate_cd varchar(20) not null comment '게시글 카테고리',
+cate_cd varchar(20) null comment '게시글 카테고리',
 title varchar(200) not null comment '제목',
 content text not null comment '게시글',
 tag varchar(1000) null comment '태그',
